@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A084DFE51D28E37300460797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A084DFE41D28E37300460797 /* AppDelegate.swift */; };
+		A084DFE71D28E37300460797 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A084DFE61D28E37300460797 /* ViewController.swift */; };
+		A084DFEA1D28E37300460797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A084DFE81D28E37300460797 /* Main.storyboard */; };
+		A084DFEC1D28E37300460797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A084DFEB1D28E37300460797 /* Assets.xcassets */; };
+		A084DFEF1D28E37300460797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A084DFED1D28E37300460797 /* LaunchScreen.storyboard */; };
+		A084DFFA1D28E37400460797 /* year_plannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A084DFF91D28E37400460797 /* year_plannerTests.swift */; };
+		A084E0051D28E37400460797 /* year_plannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A084E0041D28E37400460797 /* year_plannerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A084DFF61D28E37400460797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A084DFD91D28E37300460797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A084DFE01D28E37300460797;
+			remoteInfo = "year planner";
+		};
+		A084E0011D28E37400460797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A084DFD91D28E37300460797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A084DFE01D28E37300460797;
+			remoteInfo = "year planner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A084DFE11D28E37300460797 /* year planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "year planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A084DFE41D28E37300460797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A084DFE61D28E37300460797 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A084DFE91D28E37300460797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A084DFEB1D28E37300460797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A084DFEE1D28E37300460797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A084DFF01D28E37300460797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A084DFF51D28E37400460797 /* year plannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "year plannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A084DFF91D28E37400460797 /* year_plannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = year_plannerTests.swift; sourceTree = "<group>"; };
+		A084DFFB1D28E37400460797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A084E0001D28E37400460797 /* year plannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "year plannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A084E0041D28E37400460797 /* year_plannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = year_plannerUITests.swift; sourceTree = "<group>"; };
+		A084E0061D28E37400460797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A084DFDE1D28E37300460797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A084DFF21D28E37400460797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A084DFFD1D28E37400460797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A084DFD81D28E37300460797 = {
+			isa = PBXGroup;
+			children = (
+				A084DFE31D28E37300460797 /* year planner */,
+				A084DFF81D28E37400460797 /* year plannerTests */,
+				A084E0031D28E37400460797 /* year plannerUITests */,
+				A084DFE21D28E37300460797 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A084DFE21D28E37300460797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A084DFE11D28E37300460797 /* year planner.app */,
+				A084DFF51D28E37400460797 /* year plannerTests.xctest */,
+				A084E0001D28E37400460797 /* year plannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A084DFE31D28E37300460797 /* year planner */ = {
+			isa = PBXGroup;
+			children = (
+				A084DFE41D28E37300460797 /* AppDelegate.swift */,
+				A084DFE61D28E37300460797 /* ViewController.swift */,
+				A084DFE81D28E37300460797 /* Main.storyboard */,
+				A084DFEB1D28E37300460797 /* Assets.xcassets */,
+				A084DFED1D28E37300460797 /* LaunchScreen.storyboard */,
+				A084DFF01D28E37300460797 /* Info.plist */,
+			);
+			path = "year planner";
+			sourceTree = "<group>";
+		};
+		A084DFF81D28E37400460797 /* year plannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A084DFF91D28E37400460797 /* year_plannerTests.swift */,
+				A084DFFB1D28E37400460797 /* Info.plist */,
+			);
+			path = "year plannerTests";
+			sourceTree = "<group>";
+		};
+		A084E0031D28E37400460797 /* year plannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A084E0041D28E37400460797 /* year_plannerUITests.swift */,
+				A084E0061D28E37400460797 /* Info.plist */,
+			);
+			path = "year plannerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A084DFE01D28E37300460797 /* year planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A084E0091D28E37400460797 /* Build configuration list for PBXNativeTarget "year planner" */;
+			buildPhases = (
+				A084DFDD1D28E37300460797 /* Sources */,
+				A084DFDE1D28E37300460797 /* Frameworks */,
+				A084DFDF1D28E37300460797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "year planner";
+			productName = "year planner";
+			productReference = A084DFE11D28E37300460797 /* year planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A084DFF41D28E37400460797 /* year plannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A084E00C1D28E37400460797 /* Build configuration list for PBXNativeTarget "year plannerTests" */;
+			buildPhases = (
+				A084DFF11D28E37400460797 /* Sources */,
+				A084DFF21D28E37400460797 /* Frameworks */,
+				A084DFF31D28E37400460797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A084DFF71D28E37400460797 /* PBXTargetDependency */,
+			);
+			name = "year plannerTests";
+			productName = "year plannerTests";
+			productReference = A084DFF51D28E37400460797 /* year plannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A084DFFF1D28E37400460797 /* year plannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A084E00F1D28E37400460797 /* Build configuration list for PBXNativeTarget "year plannerUITests" */;
+			buildPhases = (
+				A084DFFC1D28E37400460797 /* Sources */,
+				A084DFFD1D28E37400460797 /* Frameworks */,
+				A084DFFE1D28E37400460797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A084E0021D28E37400460797 /* PBXTargetDependency */,
+			);
+			name = "year plannerUITests";
+			productName = "year plannerUITests";
+			productReference = A084E0001D28E37400460797 /* year plannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A084DFD91D28E37300460797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = A.F.;
+				TargetAttributes = {
+					A084DFE01D28E37300460797 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A084DFF41D28E37400460797 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A084DFE01D28E37300460797;
+					};
+					A084DFFF1D28E37400460797 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A084DFE01D28E37300460797;
+					};
+				};
+			};
+			buildConfigurationList = A084DFDC1D28E37300460797 /* Build configuration list for PBXProject "year planner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A084DFD81D28E37300460797;
+			productRefGroup = A084DFE21D28E37300460797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A084DFE01D28E37300460797 /* year planner */,
+				A084DFF41D28E37400460797 /* year plannerTests */,
+				A084DFFF1D28E37400460797 /* year plannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A084DFDF1D28E37300460797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A084DFEF1D28E37300460797 /* LaunchScreen.storyboard in Resources */,
+				A084DFEC1D28E37300460797 /* Assets.xcassets in Resources */,
+				A084DFEA1D28E37300460797 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A084DFF31D28E37400460797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A084DFFE1D28E37400460797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A084DFDD1D28E37300460797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A084DFE71D28E37300460797 /* ViewController.swift in Sources */,
+				A084DFE51D28E37300460797 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A084DFF11D28E37400460797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A084DFFA1D28E37400460797 /* year_plannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A084DFFC1D28E37400460797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A084E0051D28E37400460797 /* year_plannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A084DFF71D28E37400460797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A084DFE01D28E37300460797 /* year planner */;
+			targetProxy = A084DFF61D28E37400460797 /* PBXContainerItemProxy */;
+		};
+		A084E0021D28E37400460797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A084DFE01D28E37300460797 /* year planner */;
+			targetProxy = A084E0011D28E37400460797 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A084DFE81D28E37300460797 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A084DFE91D28E37300460797 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A084DFED1D28E37300460797 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A084DFEE1D28E37300460797 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A084E0071D28E37400460797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A084E0081D28E37400460797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A084E00A1D28E37400460797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "year planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.year-planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A084E00B1D28E37400460797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "year planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.year-planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A084E00D1D28E37400460797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "year plannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.year-plannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/year planner.app/year planner";
+			};
+			name = Debug;
+		};
+		A084E00E1D28E37400460797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "year plannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.year-plannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/year planner.app/year planner";
+			};
+			name = Release;
+		};
+		A084E0101D28E37400460797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "year plannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.year-plannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "year planner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A084E0111D28E37400460797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "year plannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.year-plannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "year planner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A084DFDC1D28E37300460797 /* Build configuration list for PBXProject "year planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A084E0071D28E37400460797 /* Debug */,
+				A084E0081D28E37400460797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A084E0091D28E37400460797 /* Build configuration list for PBXNativeTarget "year planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A084E00A1D28E37400460797 /* Debug */,
+				A084E00B1D28E37400460797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A084E00C1D28E37400460797 /* Build configuration list for PBXNativeTarget "year plannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A084E00D1D28E37400460797 /* Debug */,
+				A084E00E1D28E37400460797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A084E00F1D28E37400460797 /* Build configuration list for PBXNativeTarget "year plannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A084E0101D28E37400460797 /* Debug */,
+				A084E0111D28E37400460797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A084DFD91D28E37300460797 /* Project object */;
+}
