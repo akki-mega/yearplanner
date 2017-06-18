@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A00E62191D4C75C900A77188 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E62181D4C75C900A77188 /* ScheduleViewController.swift */; };
 		A084DFE51D28E37300460797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A084DFE41D28E37300460797 /* AppDelegate.swift */; };
 		A084DFE71D28E37300460797 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A084DFE61D28E37300460797 /* ViewController.swift */; };
 		A084DFEA1D28E37300460797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A084DFE81D28E37300460797 /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		A084DFEF1D28E37300460797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A084DFED1D28E37300460797 /* LaunchScreen.storyboard */; };
 		A084DFFA1D28E37400460797 /* year_plannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A084DFF91D28E37400460797 /* year_plannerTests.swift */; };
 		A084E0051D28E37400460797 /* year_plannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A084E0041D28E37400460797 /* year_plannerUITests.swift */; };
+		A08C5BA11D8E32CB00C37B04 /* 年間予定枠.png in Resources */ = {isa = PBXBuildFile; fileRef = A08C5BA01D8E32CB00C37B04 /* 年間予定枠.png */; };
+		A08C5BA31D8E32DD00C37B04 /* ゴミ箱アイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = A08C5BA21D8E32DD00C37B04 /* ゴミ箱アイコン.png */; };
+		A08C5BA51D8E32EC00C37B04 /* カレンダーアイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = A08C5BA41D8E32EC00C37B04 /* カレンダーアイコン.png */; };
+		A08C5BA71D8E32FE00C37B04 /* ホームアイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = A08C5BA61D8E32FE00C37B04 /* ホームアイコン.png */; };
+		A08FC1AD1DD828F80013D4C5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08FC1AC1DD828F80013D4C5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A00E62181D4C75C900A77188 /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		A084DFE11D28E37300460797 /* year planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "year planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A084DFE41D28E37300460797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A084DFE61D28E37300460797 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		A084E0001D28E37400460797 /* year plannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "year plannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A084E0041D28E37400460797 /* year_plannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = year_plannerUITests.swift; sourceTree = "<group>"; };
 		A084E0061D28E37400460797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A08C5BA01D8E32CB00C37B04 /* 年間予定枠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "年間予定枠.png"; path = "../../../../image/年間予定枠.png"; sourceTree = "<group>"; };
+		A08C5BA21D8E32DD00C37B04 /* ゴミ箱アイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ゴミ箱アイコン.png"; path = "../../../../image/ゴミ箱アイコン.png"; sourceTree = "<group>"; };
+		A08C5BA41D8E32EC00C37B04 /* カレンダーアイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "カレンダーアイコン.png"; path = "../../../../image/カレンダーアイコン.png"; sourceTree = "<group>"; };
+		A08C5BA61D8E32FE00C37B04 /* ホームアイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ホームアイコン.png"; path = "../../../../image/ホームアイコン.png"; sourceTree = "<group>"; };
+		A08FC1AC1DD828F80013D4C5 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +110,13 @@
 			isa = PBXGroup;
 			children = (
 				A084DFE41D28E37300460797 /* AppDelegate.swift */,
+				A08C5BA01D8E32CB00C37B04 /* 年間予定枠.png */,
+				A08C5BA21D8E32DD00C37B04 /* ゴミ箱アイコン.png */,
+				A08C5BA41D8E32EC00C37B04 /* カレンダーアイコン.png */,
+				A08C5BA61D8E32FE00C37B04 /* ホームアイコン.png */,
 				A084DFE61D28E37300460797 /* ViewController.swift */,
+				A00E62181D4C75C900A77188 /* ScheduleViewController.swift */,
+				A08FC1AC1DD828F80013D4C5 /* DetailViewController.swift */,
 				A084DFE81D28E37300460797 /* Main.storyboard */,
 				A084DFEB1D28E37300460797 /* Assets.xcassets */,
 				A084DFED1D28E37300460797 /* LaunchScreen.storyboard */,
@@ -230,7 +248,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A084DFEF1D28E37300460797 /* LaunchScreen.storyboard in Resources */,
+				A08C5BA51D8E32EC00C37B04 /* カレンダーアイコン.png in Resources */,
+				A08C5BA71D8E32FE00C37B04 /* ホームアイコン.png in Resources */,
+				A08C5BA31D8E32DD00C37B04 /* ゴミ箱アイコン.png in Resources */,
 				A084DFEC1D28E37300460797 /* Assets.xcassets in Resources */,
+				A08C5BA11D8E32CB00C37B04 /* 年間予定枠.png in Resources */,
 				A084DFEA1D28E37300460797 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A00E62191D4C75C900A77188 /* ScheduleViewController.swift in Sources */,
 				A084DFE71D28E37300460797 /* ViewController.swift in Sources */,
 				A084DFE51D28E37300460797 /* AppDelegate.swift in Sources */,
+				A08FC1AD1DD828F80013D4C5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +506,7 @@
 				A084E00B1D28E37400460797 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A084E00C1D28E37400460797 /* Build configuration list for PBXNativeTarget "year plannerTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +515,7 @@
 				A084E00E1D28E37400460797 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A084E00F1D28E37400460797 /* Build configuration list for PBXNativeTarget "year plannerUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +524,7 @@
 				A084E0111D28E37400460797 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
